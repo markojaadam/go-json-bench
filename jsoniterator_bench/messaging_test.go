@@ -47,6 +47,9 @@ func BenchmarkParse(b *testing.B) {
 		}
 		var request ClientRequest
 		request.load(jsonDoc)
+		request.getParameter("test_param_1")
+		request.getParameter("test_param_2")
+		request.getParameter("test_param_3")
 	}
 }
 
