@@ -3,7 +3,7 @@ project(cpp-jsontest)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(untitled main.cpp)
+add_executable(rapidjson_test main.cpp)
 add_compile_definitions(RAPIDJSON_NO_SIZETYPEDEFINE=1)
 set(RAPIDJSON_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/rapidjson/include")
 
