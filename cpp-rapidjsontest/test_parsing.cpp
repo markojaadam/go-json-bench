@@ -128,15 +128,6 @@ int main() {
   using namespace std::chrono;
   auto start = high_resolution_clock::now();
   int n_cycles = 1000000;
-//  for (int i = 1; i < n_cycles; i++) {
-//    rapidjson::Document doc{rapidjson::Type::kObjectType};
-//    auto response = ServerResponse{10000, 1, doc};
-//    response.init(1000, rapidjson::Value{rapidjson::kObjectType});
-//    response.setParameter("blah", rapidjson::Value("a"));
-//    response.setParameter("blah2", rapidjson::Value(false));
-//    response.setParameter("blah3", rapidjson::Value(true));
-//    toJsonString(response.document);
-//  }
 
   for (int i = 1; i < n_cycles; i++) {
     rapidjson::Document doc{rapidjson::Type::kObjectType};
