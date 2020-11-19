@@ -1,2 +1,6 @@
 
 .idea/
+
+cpp-rapidjsontest/cmake-build-debug/
+
+cpp-rapidjsontest/cmake-build-release/
