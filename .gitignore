@@ -1,8 +1,10 @@
 
 .idea/
 
-cpp-rapidjsontest/cmake-build-debug/
+cmake-build-*
 
-cpp-rapidjsontest/cmake-build-release/
+build/
 
-cpp-rapidjsontest/build/
+cvenv/
+
+_skbuild/
